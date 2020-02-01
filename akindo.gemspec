@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = Akindo::VERSION
   spec.authors     = ["S-H-GAMELINKS"]
   spec.email       = ["gamelinks007@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Akindo."
-  spec.description = "TODO: Description of Akindo."
+  spec.homepage    = "https://github.com"
+  spec.summary     = "https://github.com"
+  spec.description = "Description of Akindo."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
