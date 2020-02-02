@@ -3,6 +3,7 @@ require_dependency "akindo/application_controller"
 module Akindo
   class ProductsController < ApplicationController
     before_action :set_product, only: [:show, :edit, :update, :destroy]
+    before_action :set_category, only: [:new, :edit]
 
     # GET /products
     def index
@@ -52,6 +53,10 @@ module Akindo
       # Use callbacks to share common setup or constraints between actions.
       def set_product
         @product = Product.find(params[:id])
+      end
+
+      def set_category
+        @categories = Category.all
       end
 
       # Only allow a trusted parameter "white list" through.
